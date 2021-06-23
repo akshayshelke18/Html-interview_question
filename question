@@ -1,0 +1,233 @@
+1. What are some of the advantages of HTML5 over its previous versions?
+Some advantages of HTML5 are:-
+It has Multimedia Support.
+It has capabilities to store offline data using SQL databases and application cache.
+Javascript can be run in the background.
+HTML5 also allows users to draw various shapes like rectangles, circles, triangles, etc.
+Included new Semantic tags and form control tags.
+
+2. How can we include audio or video in a webpage?
+HTML5 provides two tags: <audio> and <video> tags using which we can add the audio or video directly in the webpage.
+
+3. Are the HTML tags and elements the same thing?
+No. HTML elements are defined by a starting tag, may contain some content and a closing tag.For example, <h1>Heading 1</h1> is a HTML element but just <h1> is a starting tag and </h1> is a closing tag.
+
+4. What are tags and attributes in HTML?
+Tags are the primary component of the HTML which defines how the content will be structured/ formatted, whereas Attributes are used along with the HTML tags to define the characteristics of the element. For example, <p align=”center”>Interview questions</p>, in this the ‘align’ is the attribute using which we will align the paragraph to show in the center of the view.
+
+5. What are void elements in HTML?
+HTML elements which do not have closing tags or do not need to be closed are Void elements. For Example <br />, <img />, <hr />, etc.
+
+6. What is the difference between <strong>, <b> tags and <em>, <i> tags?
+The effect on a normal webpage of the tags <strong>, <b>  and <em>, <i> is the same. <b> and <i> tags stands for bold and italic. These two tags only apply font styling and bold tag <b>, just adds more ink to the text, these tags don't say anything about the text. 
+
+Whereas, <strong> and <em> tags represents that the span of text is of strong importance or more importance and emphatic stress respectively, than the rest of the text. These tags have semantic meaning.
+
+7. What is the difference between <figure> tag and <img> tag?
+The <figure> tag specifies the self-contained content, like diagrams, images, code snippets, etc. <figure> tag is used to semantically organize the contents of an image like image, image caption, etc., whereas the <img> tag is used to embed the picture in the HTML document.
+
+8. What is the significance of <head> and <body> tag in HTML?
+<head> tag provides the information about the document. It should always be enclosed in the <html> tag. This tag contains the metadata about the webpage and the tags which are enclosed by head tag like <link>, <meta>, <style>, <script>, etc. are not displayed on the web page. Also, there can be only 1 <head> tag in the entire Html document and will always be before the <body> tag.
+
+<body> tag defines the body of the HTML document. It should always be enclosed in the <html> tag. All the contents which needs to be displayed on the web page like images, text, audio, video, contents, using elements like <p>, <img>, <audio>, <heading>, <video>, <div>, etc. will always be enclosed by the <body> tag. Also, there can be only 1 body element in an HTML document and will always be after the <head> tag.
+
+9. What are Semantic Elements?
+Semantic elements are those which describe the particular meaning to the browser and the developer. Elements like <form>, <table>, <article>, <figure>, etc., are semantic elements.
+
+10. How is Cell Padding different from Cell Spacing?
+Cell Spacing is the space or gap between two consecutive cells. Whereas, Cell Padding is the space or gap between the text/ content of the cell and the edge/ border of the cell. Please refer to the above figure example to find the difference.
+
+11. How can we club two or more rows or columns into a single row or column in an HTML table?
+HTML provides two table attributes “rowspan” and “colspan” to make a cell span to multiple rows and columns respectively.
+
+12. Is it possible to change an inline element into a block level element?
+Yes, it is possible using the “display” property with its value as “block”, to change the inline element into a block-level element.
+
+13. In how many ways can we position an HTML element? Or what are the permissible values of the position attribute?
+There are mainly 7 values of position attribute that can be used to position an HTML element:
+
+static: Default value. Here the element is positioned according to the normal flow of the document.
+absolute: Here the element is positioned relative to its parent element. The final position is determined by the values of left, right, top, bottom. 
+fixed: This is similar to absolute except here the elements are positioned relative to the <html> element.
+relative: Here the element is positioned according to the normal flow of the document and positioned relative to its original/ normal position.
+initial: This resets the property to its default value.
+inherit: Here the element inherits or takes the property of its parent.
+
+14.. In how many ways you can display HTML elements?
+inline: Using this we can display any block-level element as an inline element. The height and width attribute values of the element will not affect.
+block: using this, we can display any inline element as a block-level element. 
+inline-block: This property is similar to inline, except by using the display as inline-block, we can actually format the element using height and width values.
+flex: It displays the container and element as a flexible structure. It follows flexbox property.
+inline-flex: It displays the flex container as an inline element while it’s content follows the flexbox properties.
+grid: It displays the html elements as a grid container.
+none: Using this property we can hide the HTML element.
+Below are some of the display types which are rarely used:
+
+table
+inline-table
+table-cell
+table-column
+table-row
+inline-grid
+list-item
+inherit
+initial
+table-caption
+
+15. What is the difference between “display: none” and “visibility: hidden”, when used as attributes to the HTML element.
+When we use the attribute “visibility:hidden” for an HTML element then that element will be hidden from the webpage but still takes up space. Whereas, if we use the “display: none” attribute for an HTML element then the element will be hidden, and also it won’t take up any space on the webpage.
+
+16.What is the difference between <meter> tag and <progress> tag?
+<progress> tag should be used when we want to show the completion progress of a task, whereas, if we just want a scalar measurement within a known range, or fraction value. Also, we can specify multiple extra attributes for <meter> tags like ‘form’, ‘low’, ‘high’, ‘min’, etc.
+
+17.How to specify the link in HTML and explain the target attribute?
+HTML provides a hyperlink - <a> tag to specify the links in a webpage. The ‘href’ attribute is used to specify the link and the ‘target’ attribute is used to specify, where do we want to open the linked document. The ‘target’ attribute can have the following values:
+
+_self: This is a default value. It opens the document in the same window or tab as it was clicked.
+_blank: It opens the document in a new window or tab.
+_parent: It opens the document in a parent frame.
+_top: It opens the document in a full-body window.
+
+18. What is the ‘class’ attribute in HTML?
+The class attribute is used to specify the class name for an HTML element. Multiple elements in HTML can have the same class value. Also, it is mainly used to associate the styles written in the stylesheet with the HTML elements.
+
+19.What is the difference between the ‘id’ attribute and the ‘class’ attribute of HTML elements?
+Multiple elements in HTML can have the same class value, whereas a value of id attribute of one element cannot be associated with another HTML element.
+
+20.Difference between link tag <link> and anchor tag <a>?
+The anchor tag <a> is used to create a hyperlink to another webpage or to a certain part of the webpage and these links are clickable, whereas, link tag <link> defines a link between a document and an external resource and these are not clickable.
+
+21. When to use scripts in the head and when to use scripts in the body?
+If the scripts contain some event-triggered functions or jquery library then we should use them in the head section. If the script writes the content on the page or is not inside a function then it should be placed inside the body section at the bottom. In short, follow below three points:
+
+Place library scripts or event scripts in the head section.
+Place normal scripts that do not write anything on the page, in the head section until there is any performance issue.
+Place scripts that render something on the web page at the bottom of the body section
+
+22.What are forms and how to create forms in HTML?
+The HTML form is used to collect the user inputs. HTML provides a <form> tag to create forms. To take input from the user we use the <input> tag inside the form so that all collected user data can be sent to the server for processing. There are different input types like ‘button’, ‘checkbox’, ‘number’, ‘text’, ‘password’, ‘submit’ etc.
+
+<form action="/submit_data.php">
+    <label>Enter your name: </label>
+    <input type="text" name="name" /> 
+    <label>Enter Mobile number </label>
+    <input type="number" name="mobile_no"/>
+    <input type="submit" value="Submit">
+</form>
+
+23. Define multipart form data?
+Multipart form data is one of the values of the enctype attribute. It is used to send the file data to the server-side for processing. The other valid values of the enctype attribute are text/plain and application/x-www-form-urlencoded.
+
+24. Is drag and drop possible using HTML5 and how?
+Yes, in HTML5 we can drag and drop an element. This can be achieved using the drag and drop related events to be used with the element which we want to drag and drop.
+
+25. What type of audio files can be played using HTML?
+HTML5 supports the following three types of audio file formats:
+
+Mp3
+WAV
+Ogg
+
+26.What are the entities in HTML?
+The HTML character entities are used as a replacement for reserved characters in HTML. You can also replace characters that are not present on your keyboard by entities. These characters are replaced because some characters are reserved in HTML.
+
+27.Why is a URL encoded in HTML?
+An URL is encoded to convert non-ASCII characters into a format that can be used over the Internet because a URL is sent over the Internet by using the ASCII character-set only. If a URL contains characters outside the ASCII set, the URL has to be converted. The non-ASCII characters are replaced with a "%" followed by hexadecimal digits.
+
+28. Does a <!DOCTYPE html> tag is a HTML tag?
+No, the <!DOCTYPE html> declaration is not an HTML tag. There are many type of HTML e.g. HTML 4.01 Strict, HTML 4.01 Transitional, HTML 4.01 Frameset, XHTML 1.0 Strict, XHTML 1.0 Transitional, XHTML 1.0 Frameset, XHTML 1.1 etc. So, <!DOCTYPE html> is used to instruct the web browser about the HTML page.
+
+29.What are the different new form element types in HTML 5?
+Following is a list of 10 frequently used new elements in HTML 5:
+
+
+Color
+Date
+Datetime-local
+Email
+Time
+Url
+Range
+Telephone
+Number
+Search
+
+30. What is the difference between progress and meter tag?
+The progress tag is used to represent the progress of the task only while the meter tag is used to measure data within a given range
+
+31. What is button tag?
+The button tag is used in HTML 5. It is used to create a clickable button within the HTML form on the web page. It is generally used to create a "submit" or "reset" button. Let's see the code to display the button
+
+32.What is the use of details and summary tag?
+The details tag is used to specify some additional details on the web page. It can be viewed or hidden on demand. The summary tag is used with details tag
+
+33.If I do not put <!DOCTYPE html> will HTML 5 work?
+No, the browser will not be able to identify that it is an HTML document and HTML 5 tags do not function properly..
+
+34. What is the use of the required attribute in HTML5?
+It forces a user to fill text on the text field or text area before submitting the form. It is used for form validation.
+
+35.. What is the hierarchy that is being followed when it comes to style sheets?
+If a single selector includes three different style definitions, the definition that is closest to the actual tag takes precedence. Inline style takes priority over embedded style sheets, which takes priority over external style sheets
+
+36. How are active links different from normal links?
+The default color for normal and active links is blue. Some browsers recognize an active link when the mouse cursor is placed over that link. Whereas, others recognize active links when the link has the focus. Those that don’t have a mouse cursor over that link is considered a normal link
+
+37. What are the different tags to separate sections of text?
+The <br> tag is one way to separate the lines of text. There are other tags like the <p> tag and <blockquote> tag that are also used to separate sections of text.
+
+38. What is the advantage of grouping several checkboxes together?
+The checkboxes don’t affect one another. But, grouping these checkboxes together help to organize them. Checkbox buttons can have their name and do not need to belong to a group. A single web page can have many different groups of checkboxes.
+
+39. . What happens if there is no text between the tags? Does this affect the display of the HTML file?
+If there is no text present between the tags, there is nothing to format. Therefore, no formatting will appear. Some tags, such as the tags without a closing tag like the <img> tag, do not require any text between them.
+
+40.  What are the limits of the text field size?
+The default size for a text field is around 13 characters. However, if you include the size attribute, you can set the size value to be as low as 1. The maximum size value will be determined by the browser width. Also, if the size attribute is set to 0, the size will be set to the default size of 13 characters.
+
+41. . What is the relationship between the border and rule attributes?
+Default cell borders, with a thickness of 1 pixel, are automatically added between cells if the border attribute is set to a nonzero value. Similarly, If the border attribute is not included, a default 1-pixel border appears when the rules attribute is added to the <table> tag.
+
+42. What are logical and physical tags in HTML?
+Logical tags are used to tell the meaning of the enclosed text. The example of the logical tag is <strong> </strong> tag. When we enclose the text in the strong tag, it tells the browser that enclosed text is more important than other texts.
+
+Physical tags are used to tell the browser how to display the text enclosed in the physical tag. Some of the examples of physical tags are <b>, <big>, <i>.
+
+43.  How can you apply JavaScript to a web page?
+In order to make your webpage more interactive, you need JavaScript. It is a scripting language that allows you to interact with certain elements on the page, based on user input. As with CSS, there are three main ways of including JavaScript:
+
+Inline
+
+Certain HTML elements allow you to execute a piece of JavaScript when a certain event occurs. For example, a button allows you to run a script when you click on it. These events are accessed through attributes and differ based on the events that are available on each element. Here is an example that shows an alert with a message when the user clicks on it:
+
+
+44. If the user’s operating system does not support the needed character, how can the symbol be represented?
+
+In cases wherein their operating system does not support a particular character, it is still possible to display that character by showing it as an image instead.
+
+45. State  bullet types available in HTML 
+
+With ordered lists, you can select to use some different list types including alphabetical and Roman numerals. The type attribute for unordered lists can be set to disc, square, or circle.
+
+46. How do you create multicolored text in a webpage?
+
+To create text with different colors, use the <font color=”color”>…</font> tags for every character that you want to apply color. You can use this tag combination as many times as needed, surrounding a single character or an entire word.
+
+47. Why are there both numerical and named character entity values?
+
+The numerical values are taken from the ASCII values for the various characters, but these can be difficult to remember. Because of this, named character entity values were created to make it easier for web page designers to use.
+
+48.  What is the advantage of grouping several checkboxes together?
+
+Although checkboxes don’t affect one another, grouping checkboxes together help to organize them. Checkbox buttons can have their name and do not need to belong to a group. A single web page can have many different groups of checkboxes.
+
+49. What will happen if you overlap sets of tags?
+
+If two sets of HTML tags are overlapped, only the first tag will be recognized. You will find this problem when the text does not display properly on the browser screen.
+
+50.What are applets?
+
+Applets are small programs that can be embedded within web pages to perform some specific functionality, such as computations, animations, and information processing. Applets are written using the Java language.
+
+
+
